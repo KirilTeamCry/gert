@@ -15,6 +15,8 @@ module.exports = {
         {
             files: "*.js",
             options: {
+                printWidth: 145,   files: "*.js",
+            options: {
                 printWidth: 145,
                 semi: false,
                 tabWidth: 4,
