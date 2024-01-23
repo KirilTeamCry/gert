@@ -1,15 +1,4 @@
-// SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.7.6;
-
-import "./interfaces/ILayerZeroReceiver.sol";
-import "./interfaces/ILayerZeroEndpoint.sol";
-import "./interfaces/ILayerZeroMessagingLibrary.sol";
-
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-contract Endpoint is Ownable, ILayerZeroEndpoint {
-    uint16 public immutable chainId;
 
     // installed libraries and reserved versions
     uint16 public constant BLOCK_VERSION = 65535;
